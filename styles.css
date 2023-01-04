@@ -9,6 +9,10 @@ header {
     margin: 44px 0 144px 76px;
 }
 
+body {
+    height: 110vh;
+}
+
 .link-header {
     font-weight: 600, Semi Bold;
     font-size: 24px;
@@ -17,6 +21,10 @@ header {
     cursor: pointer;
     margin-right: 23px;
     
+}
+
+.link-header:hover {
+    color: #ADFF00;
 }
 
 section {
@@ -45,6 +53,12 @@ section {
     line-height: 29px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.button-header:hover {
+    background-color: transparent;
+    border: 2px solid #665AE1;
+    color: #665AE1;
 }
 
 h1 {
@@ -83,10 +97,93 @@ p {
     cursor: pointer;
     filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25) );
     margin-top: 65px;
+    text-decoration: none; 
     
     
 }
 .button-header a {
     text-decoration: none; 
 
+}
+
+.button-explore:hover a {
+    color: #FFFFFF;
+
+}
+
+.button-explore a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 716px) {
+
+    header {
+        margin: 44px 0 100px 25px
+      
+    }
+
+    body {
+        height: 150vh;
+        width: 420px;
+        margin-left: 50px;
+    }
+
+    
+    
+    .img-logo{
+        margin-left: 10px;
+    }
+
+    .button-header {
+        margin-top: 30px;
+       
+    }
+
+    .button-explore {
+        margin-top: 40px;
+    }
+    
+    
+
+    section {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    
+   .img-logo{
+    width: 376px;
+    height: 302px;
+    margin-left: 23px;
+
+   }
+
+   .a-div {
+  width: 428px;
+  margin-left: 23px;
+
+}
+
+ .a-div p{
+    width: 298px;
+    text-align: center;
+    font-size: 20px;
+   
+ }
+
+ .button-explore{
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 117px;
+    height: 45px;
+    font-size: 22px;
+    font-weight: 700;
+ }
+
+ header {
+    margin-left: 29px;
+ }
+
+ 
 }
